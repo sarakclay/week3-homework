@@ -27,11 +27,12 @@ puts cheap_property[:rent]
 
 #Q4. How much does it cost to buy New York Ave?
 #A4: Your code goes here:
-more_properties.find {|x| x['name'] == 'New York Ave'}
+puts NYC = more_properties.find{|x| x[:name] == 'New York Ave' }
+puts NYC[:price]
 
 #Q5: How many "good" special squares are there?
 #A5: Your code goes here:
-
-
+puts good = special_squares[:good]
+puts good.length
 
 
